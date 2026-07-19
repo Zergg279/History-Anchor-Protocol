@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>History Anchor Protocol</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+<main>
+  <p class="mono">HAP v1.0.0 · BITCOIN-FIRST OPEN MEMORY PROTOCOL</p>
+  <h1>Memory published by Bitcoin.<br>Verified by anyone.</h1>
+  <p>This interface is replaceable. Bitcoin transactions define canonical publication and ordering; independent HAP nodes retrieve, validate, preserve, and index the exact committed packages.</p>
+  <div class="warning"><strong>No truth authority:</strong> the protocol proves signatures, unchanged bytes, Bitcoin publication, and reproducible evidence relationships. Claims are never declared true merely because they were published.</div>
+  <div class="warning"><strong>Permissionless publication, accountable amplification:</strong> this reference interface uses the optional responsible-publication profile. Person-impact records may be Bitcoin-valid yet absent from this discovery feed; exact-ID access and the complete linked context remain available.</div>
+  <section class="grid">
+    <article class="card"><h2>Node</h2><pre id="node" class="mono muted">Loading…</pre></article>
+    <article class="card"><h2>Verify independently</h2><p>Use the open-source client and your own Bitcoin Core node.</p><p class="mono">hap verify proof.json<br>hap verify-bitcoin proof.json<br>hap scan-bitcoin</p></article>
+    <article class="card wide"><div class="row"><h2>Responsible-publication feed</h2><button id="refresh" class="secondary" type="button">Refresh</button></div><div id="records">Loading…</div></article>
+    <article class="card wide"><h2>Record, assessment, and proofs</h2><pre id="output">Select a record to inspect its signed object, evidence state, linked records, and Bitcoin proofs.</pre></article>
+  </section>
+</main>
+</body>
+</html>

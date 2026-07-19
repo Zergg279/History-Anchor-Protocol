@@ -1,0 +1,15 @@
+# Bitcoin Core signet example for a HAP publication/scanning node.
+signet=1
+server=1
+listen=1
+txindex=1
+fallbackfee=0.00001000
+
+# Prefer rpcauth. Bind only to a private interface and firewall this port.
+rpcbind=0.0.0.0
+rpcallowip=172.17.0.0/16
+rpcuser=haprpc
+rpcpassword=REPLACE_WITH_DEPLOY_SECRETS_BITCOIN_RPC_PASSWORD
+
+# Create a dedicated low-balance wallet once:
+# bitcoin-cli -signet createwallet hap-anchor

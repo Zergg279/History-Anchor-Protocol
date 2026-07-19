@@ -1,0 +1,21 @@
+services:
+  hap:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8339:8339"
+    env_file:
+      - .env
+    environment:
+      HAP_DATA_DIR: /data
+    volumes:
+      - hap-data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  hap-data:

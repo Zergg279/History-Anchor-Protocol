@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "history-anchor-protocol"
+version = "1.0.0"
+description = "An ownerless Bitcoin-first memory protocol for signed records, evidence, provenance, disputes, and responsible publication."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "History Anchor Protocol contributors"}]
+dependencies = [
+  "cryptography==49.0.0",
+  "fastapi==0.139.2",
+  "uvicorn==0.51.0",
+  "httpx==0.28.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.0.2", "coverage==7.13.3", "ruff==0.15.22", "bandit==1.9.4"]
+
+[project.scripts]
+hap = "hap.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hap*"]
+
+[tool.setuptools.package-data]
+hap = ["static/*.html", "static/*.css", "static/*.js"]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+  "error::ResourceWarning",
+  "error::pytest.PytestUnraisableExceptionWarning",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["hap"]
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true

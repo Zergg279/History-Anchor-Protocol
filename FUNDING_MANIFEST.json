@@ -1,0 +1,12 @@
+{
+  "bitcoin_network": "mainnet",
+  "consensus_effect": false,
+  "genesis_donation_address": "bc1pughulyqcqtxjz7xsa3lgd7pmkfd3ptper3z55n7gh4ffjjk2xrxsj6lqds",
+  "governance_rights": false,
+  "manifest_id": "09604d121490a3c598a0da039b469f76282ecb1e7690234d8e4315f8569f7c41",
+  "protocol_dependency": false,
+  "purpose": "voluntary support for open-source HAP development",
+  "release_version": "1.0.0",
+  "schema": "hap.funding",
+  "version": 1
+}

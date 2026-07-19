@@ -1,0 +1,455 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-07-19T00:00:00Z",
+    "creators": [
+      "Tool: HAP release builder"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-Package-HAP"
+  ],
+  "documentNamespace": "https://history-anchor.invalid/spdx/1.0.0/67f6b291-5777-5517-a544-1be35b1b3ec4",
+  "name": "history-anchor-protocol-1.0.0-sbom",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-HAP",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/history-anchor-protocol@1.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "history-anchor-protocol",
+      "versionInfo": "1.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-1",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/annotated-doc@0.0.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "annotated-doc",
+      "versionInfo": "0.0.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/annotated-types@0.7.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "annotated-types",
+      "versionInfo": "0.7.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-3",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/anyio@4.13.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "anyio",
+      "versionInfo": "4.13.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-4",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/certifi@2026.5.20",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "certifi",
+      "versionInfo": "2026.5.20"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-5",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/cffi@2.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "cffi",
+      "versionInfo": "2.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-6",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/click@8.1.8",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "click",
+      "versionInfo": "8.1.8"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-7",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/cryptography@49.0.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "cryptography",
+      "versionInfo": "49.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-8",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/fastapi@0.139.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "fastapi",
+      "versionInfo": "0.139.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-9",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/h11@0.16.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "h11",
+      "versionInfo": "0.16.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-10",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/httpcore@1.0.9",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "httpcore",
+      "versionInfo": "1.0.9"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-11",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/httpx@0.28.1",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "httpx",
+      "versionInfo": "0.28.1"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-12",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/idna@3.17",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "idna",
+      "versionInfo": "3.17"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-13",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pycparser@3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pycparser",
+      "versionInfo": "3.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-14",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pydantic@2.13.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pydantic",
+      "versionInfo": "2.13.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-15",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/pydantic_core@2.46.4",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "pydantic_core",
+      "versionInfo": "2.46.4"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-16",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/starlette@0.50.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "starlette",
+      "versionInfo": "0.50.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-17",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/typing-inspection@0.4.2",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "typing-inspection",
+      "versionInfo": "0.4.2"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-18",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/typing_extensions@4.15.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "typing_extensions",
+      "versionInfo": "4.15.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Dependency-19",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/uvicorn@0.51.0",
+          "referenceType": "purl"
+        }
+      ],
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "uvicorn",
+      "versionInfo": "0.51.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-1",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-2",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-3",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-4",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-5",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-6",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-7",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-8",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-9",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-10",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-11",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-12",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-13",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-14",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-15",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-16",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-17",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-18",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Dependency-19",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-HAP"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}

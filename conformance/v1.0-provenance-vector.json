@@ -1,0 +1,263 @@
+{
+  "inputs": {
+    "record": {
+      "schema": "hap.record",
+      "version": 1,
+      "kind": "claim",
+      "created_at": "2026-07-19T10:00:00Z",
+      "event_time": null,
+      "author_id": "hap1b4decd5a5f8f2ba708f8ced72eec89f44f3be96a",
+      "author_public_key": "8a88e3dd7409f195fd52db2d3cba5d72ca6709bf1d94121bf3748801b40f6f5c",
+      "title": "Vector claim",
+      "statement": "A person-impact test claim.",
+      "target_record_id": null,
+      "sources": [],
+      "evidence": [
+        {
+          "filename": "a.bin",
+          "size": 3,
+          "mime_type": "application/octet-stream",
+          "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+          "cid": null
+        }
+      ],
+      "tags": [
+        "hap:person-impact:direct"
+      ],
+      "signature": "uZP2e+TPbSts07cpP3hU0nY+d7jB6TKpQLVarNN/SZUdlS69AOkr5d34K9pQozA4cDLjsnDpHkinZ4tNlvmkDA==",
+      "record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3"
+    },
+    "all_records": [
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "claim",
+        "created_at": "2026-07-19T10:00:00Z",
+        "event_time": null,
+        "author_id": "hap1b4decd5a5f8f2ba708f8ced72eec89f44f3be96a",
+        "author_public_key": "8a88e3dd7409f195fd52db2d3cba5d72ca6709bf1d94121bf3748801b40f6f5c",
+        "title": "Vector claim",
+        "statement": "A person-impact test claim.",
+        "target_record_id": null,
+        "sources": [],
+        "evidence": [
+          {
+            "filename": "a.bin",
+            "size": 3,
+            "mime_type": "application/octet-stream",
+            "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+            "cid": null
+          }
+        ],
+        "tags": [
+          "hap:person-impact:direct"
+        ],
+        "signature": "uZP2e+TPbSts07cpP3hU0nY+d7jB6TKpQLVarNN/SZUdlS69AOkr5d34K9pQozA4cDLjsnDpHkinZ4tNlvmkDA==",
+        "record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3"
+      },
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "subject_response",
+        "created_at": "2026-07-19T10:01:00Z",
+        "event_time": null,
+        "author_id": "hap143346e326b6721be4a070bfb2eb49127322fa5e4",
+        "author_public_key": "8139770ea87d175f56a35466c34c7ecccb8d8a91b4ee37a25df60f5b8fc9b394",
+        "title": "Subject response",
+        "statement": "I dispute this claim.",
+        "target_record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+        "sources": [],
+        "evidence": [],
+        "tags": [],
+        "signature": "ALK7qBH5d1+GX5PyQL3/NymDJSfGnG66DuP3XCpg4qY7YiU7/vGY/mhHQo/28XnroeYIkTd7PlMuZxVrOuQcBQ==",
+        "record_id": "8e772c969c20b869fe654a4753529fdd46f1d279ceb4bf26aa165260e99f4252"
+      },
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "view_decision",
+        "created_at": "2026-07-19T10:02:00Z",
+        "event_time": null,
+        "author_id": "hap18222a72e9716ae392c862f23b6761cde14fd712f",
+        "author_public_key": "ed4928c628d1c2c6eae90338905995612959273a5c63f93636c14614ac8737d1",
+        "title": "Enable discovery",
+        "statement": "Enable after review.",
+        "target_record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+        "sources": [],
+        "evidence": [],
+        "tags": [
+          "hap:view:enable-discovery"
+        ],
+        "signature": "IoeVJS0sfX4V4pgW4WN8qBaHHJ8F+SjN2zQZELvF/OspybyNbAufs9qBmgc98xCPi6NpwaT0ulN7OfhoDeP7CA==",
+        "record_id": "e282a719493f4cb78dca5c11b754d621c49cc2031eb4a22b714128866a83ae1c"
+      },
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "provenance_assertion",
+        "created_at": "2026-07-19T10:03:00Z",
+        "event_time": null,
+        "author_id": "hap1e1bb5e10d4fb868acf5c3987e4bac10bd33bfc0c",
+        "author_public_key": "ca93ac1705187071d67b83c7ff0efe8108e8ec4530575d7726879333dbdabe7c",
+        "title": "Lineage analysis",
+        "statement": "Likely related to another source.",
+        "target_record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+        "sources": [
+          {
+            "uri": "hap:record:a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+            "label": "Input"
+          }
+        ],
+        "evidence": [],
+        "tags": [
+          "hap:analysis-ruleset:vector-v1",
+          "hap:analysis-confidence:80"
+        ],
+        "signature": "BLTg0BJeld9Kdmf6qBQ6ePoGCaKiRilCZWL7nGnGk1UHW9QbB9VY8laAUN1Nd9mvxLxOkijjb4GGW+wmJq3MAA==",
+        "record_id": "8d45c7aba5cf1f8e6265142e74f05f573c3c00f36fff4fe4fff6721df5e761ec"
+      },
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "claim",
+        "created_at": "2026-07-19T10:04:00Z",
+        "event_time": null,
+        "author_id": "hap143346e326b6721be4a070bfb2eb49127322fa5e4",
+        "author_public_key": "8139770ea87d175f56a35466c34c7ecccb8d8a91b4ee37a25df60f5b8fc9b394",
+        "title": "Exact duplicate evidence",
+        "statement": "Same bytes in a second record.",
+        "target_record_id": null,
+        "sources": [],
+        "evidence": [
+          {
+            "filename": "copy.bin",
+            "size": 3,
+            "mime_type": "application/octet-stream",
+            "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+            "cid": null
+          }
+        ],
+        "tags": [
+          "hap:person-impact:none"
+        ],
+        "signature": "sq6VxNzxpzdjauvCN4bviWmGWA1MqfVFpLox3h+RcSgRyQq81czHpcEVWWEvlGaAH28b31gk/pW+CD+imnKyBA==",
+        "record_id": "1beafe503ab1934805c5460025469294f11487afb3f0cf3f608f0d4b57d423bf"
+      }
+    ],
+    "linked_records": [
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "subject_response",
+        "created_at": "2026-07-19T10:01:00Z",
+        "event_time": null,
+        "author_id": "hap143346e326b6721be4a070bfb2eb49127322fa5e4",
+        "author_public_key": "8139770ea87d175f56a35466c34c7ecccb8d8a91b4ee37a25df60f5b8fc9b394",
+        "title": "Subject response",
+        "statement": "I dispute this claim.",
+        "target_record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+        "sources": [],
+        "evidence": [],
+        "tags": [],
+        "signature": "ALK7qBH5d1+GX5PyQL3/NymDJSfGnG66DuP3XCpg4qY7YiU7/vGY/mhHQo/28XnroeYIkTd7PlMuZxVrOuQcBQ==",
+        "record_id": "8e772c969c20b869fe654a4753529fdd46f1d279ceb4bf26aa165260e99f4252"
+      },
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "view_decision",
+        "created_at": "2026-07-19T10:02:00Z",
+        "event_time": null,
+        "author_id": "hap18222a72e9716ae392c862f23b6761cde14fd712f",
+        "author_public_key": "ed4928c628d1c2c6eae90338905995612959273a5c63f93636c14614ac8737d1",
+        "title": "Enable discovery",
+        "statement": "Enable after review.",
+        "target_record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+        "sources": [],
+        "evidence": [],
+        "tags": [
+          "hap:view:enable-discovery"
+        ],
+        "signature": "IoeVJS0sfX4V4pgW4WN8qBaHHJ8F+SjN2zQZELvF/OspybyNbAufs9qBmgc98xCPi6NpwaT0ulN7OfhoDeP7CA==",
+        "record_id": "e282a719493f4cb78dca5c11b754d621c49cc2031eb4a22b714128866a83ae1c"
+      },
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "provenance_assertion",
+        "created_at": "2026-07-19T10:03:00Z",
+        "event_time": null,
+        "author_id": "hap1e1bb5e10d4fb868acf5c3987e4bac10bd33bfc0c",
+        "author_public_key": "ca93ac1705187071d67b83c7ff0efe8108e8ec4530575d7726879333dbdabe7c",
+        "title": "Lineage analysis",
+        "statement": "Likely related to another source.",
+        "target_record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+        "sources": [
+          {
+            "uri": "hap:record:a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+            "label": "Input"
+          }
+        ],
+        "evidence": [],
+        "tags": [
+          "hap:analysis-ruleset:vector-v1",
+          "hap:analysis-confidence:80"
+        ],
+        "signature": "BLTg0BJeld9Kdmf6qBQ6ePoGCaKiRilCZWL7nGnGk1UHW9QbB9VY8laAUN1Nd9mvxLxOkijjb4GGW+wmJq3MAA==",
+        "record_id": "8d45c7aba5cf1f8e6265142e74f05f573c3c00f36fff4fe4fff6721df5e761ec"
+      }
+    ],
+    "anchored_record_ids": [
+      "1beafe503ab1934805c5460025469294f11487afb3f0cf3f608f0d4b57d423bf",
+      "8d45c7aba5cf1f8e6265142e74f05f573c3c00f36fff4fe4fff6721df5e761ec",
+      "8e772c969c20b869fe654a4753529fdd46f1d279ceb4bf26aa165260e99f4252",
+      "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+      "e282a719493f4cb78dca5c11b754d621c49cc2031eb4a22b714128866a83ae1c"
+    ]
+  },
+  "expected": {
+    "schema": "hap.provenance-graph",
+    "version": 1,
+    "rule": "hap-provenance-graph-v1",
+    "record_id": "a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3",
+    "protocol_facts": {
+      "record_signed_by_author_id": "hap1b4decd5a5f8f2ba708f8ced72eec89f44f3be96a",
+      "record_bitcoin_anchored": true,
+      "target_record_id": null,
+      "committed_evidence_sha256": [
+        "1111111111111111111111111111111111111111111111111111111111111111"
+      ],
+      "exact_evidence_matches": {
+        "1111111111111111111111111111111111111111111111111111111111111111": [
+          "1beafe503ab1934805c5460025469294f11487afb3f0cf3f608f0d4b57d423bf"
+        ]
+      }
+    },
+    "signed_declarations": [],
+    "analysis_overlays": [
+      {
+        "record_id": "8d45c7aba5cf1f8e6265142e74f05f573c3c00f36fff4fe4fff6721df5e761ec",
+        "author_id": "hap1e1bb5e10d4fb868acf5c3987e4bac10bd33bfc0c",
+        "bitcoin_anchored": true,
+        "ruleset": "vector-v1",
+        "confidence_percent": 80,
+        "statement": "Likely related to another source.",
+        "related_record_references": [
+          "hap:record:a70867b6319298d659e69c5bfb8970e0c7985302f1aa08792d07d9b298baf5d3"
+        ],
+        "epistemic_type": "signed-derived-inference",
+        "becomes_protocol_fact": false
+      }
+    ],
+    "source_independence": {
+      "proven": false,
+      "reason": "Different keys, URLs, organisations, or timestamps do not prove independent upstream origin. Exact duplicates are grouped, while stronger lineage conclusions remain signed overlays."
+    },
+    "epistemic_legend": {
+      "protocol_fact": "reproducible from bytes, signatures, HAP links, and Bitcoin state",
+      "signed_declaration": "the protocol proves who declared it, not that the declaration is honest",
+      "derived_inference": "a named analytical overlay that can be reproduced, challenged, or ignored",
+      "external_world_claim": "not determined by HAP consensus"
+    }
+  }
+}

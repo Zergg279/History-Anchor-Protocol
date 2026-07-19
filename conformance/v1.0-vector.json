@@ -1,0 +1,123 @@
+{
+  "schema": "hap.conformance",
+  "version": 1,
+  "warning": "The private key is public test material and must never be used for a real identity.",
+  "test_private_key_base64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+  "expected_public_key_hex": "03a107bff3ce10be1d70dd18e74bc09967e4d6309ba50d5f1ddc8664125531b8",
+  "expected_author_id": "hap1f0a594d2978da8803f696325ea0aaa5045cf2e94",
+  "canonical_signing_body_hex": "7b22617574686f725f6964223a226861703166306135393464323937386461383830336636393633323565613061616135303435636632653934222c22617574686f725f7075626c69635f6b6579223a2230336131303762666633636531306265316437306464313865373462633039393637653464363330396261353064356631646463383636343132353533316238222c22637265617465645f6174223a22323032362d30372d31385432303a30313a30305a222c226576656e745f74696d65223a22323032362d30372d31385432303a30303a30305a222c2265766964656e6365223a5b7b22636964223a6e756c6c2c2266696c656e616d65223a2265766964656e63652e747874222c226d696d655f74797065223a22746578742f706c61696e222c22736861323536223a2261393438393034663266306634373962386638313937363934623330313834623064326564316331636432613165633066623835643239396131393261343437222c2273697a65223a31327d5d2c226b696e64223a22636c61696d222c22736368656d61223a226861702e7265636f7264222c22736f7572636573223a5b7b226c6162656c223a22436f6e666f726d616e636520736f75726365222c22757269223a2268747470733a2f2f6578616d706c652e6f72672f636f6e666f726d616e6365227d5d2c2273746174656d656e74223a22546869732064657465726d696e6973746963207265636f72642065786973747320736f6c656c7920617320612063726f73732d696d706c656d656e746174696f6e207465737420766563746f722e222c2274616773223a5b22636f6e666f726d616e6365222c22746573742d6f6e6c79225d2c227461726765745f7265636f72645f6964223a6e756c6c2c227469746c65223a2248415020636f6e666f726d616e6365206576656e74222c2276657273696f6e223a317d",
+  "record": {
+    "schema": "hap.record",
+    "version": 1,
+    "kind": "claim",
+    "created_at": "2026-07-18T20:01:00Z",
+    "event_time": "2026-07-18T20:00:00Z",
+    "author_id": "hap1f0a594d2978da8803f696325ea0aaa5045cf2e94",
+    "author_public_key": "03a107bff3ce10be1d70dd18e74bc09967e4d6309ba50d5f1ddc8664125531b8",
+    "title": "HAP conformance event",
+    "statement": "This deterministic record exists solely as a cross-implementation test vector.",
+    "target_record_id": null,
+    "sources": [
+      {
+        "uri": "https://example.org/conformance",
+        "label": "Conformance source"
+      }
+    ],
+    "evidence": [
+      {
+        "filename": "evidence.txt",
+        "size": 12,
+        "mime_type": "text/plain",
+        "sha256": "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447",
+        "cid": null
+      }
+    ],
+    "tags": [
+      "conformance",
+      "test-only"
+    ],
+    "signature": "ltlzuxFE0z9Vlpqx5msbMxOXi0PWkB3IV6UxCE2OHFPFKe24IWT+K3saRvn0AxiMGIP3c8IZ/ukhPoluRqDFBw==",
+    "record_id": "fe4fd10287faaea0736fe25fb849264527c0387bc8968786a9c19d8fa5aefeb5"
+  },
+  "batch": {
+    "schema": "hap.batch",
+    "version": 3,
+    "created_at": 1721332920,
+    "network": "signet",
+    "record_count": 1,
+    "record_ordering": "record_id_lexicographic_v1",
+    "record_ids": [
+      "fe4fd10287faaea0736fe25fb849264527c0387bc8968786a9c19d8fa5aefeb5"
+    ],
+    "merkle_root": "fe4fd10287faaea0736fe25fb849264527c0387bc8968786a9c19d8fa5aefeb5",
+    "algorithms": {
+      "record_id": "sha256",
+      "batch_id": "sha256",
+      "merkle_parent": "sha256(left||right)",
+      "canonical_json": "hap-canonical-json-v1"
+    },
+    "batch_id": "5ca8c08e0aefbc9ecced864f9499b9f7c2b8af326257f6de2f9dd5488ba356fd",
+    "payload_hex": "4849535403015ca8c08e0aefbc9ecced864f9499b9f7c2b8af326257f6de2f9dd5488ba356fd"
+  },
+  "release": "1.0.0",
+  "package": {
+    "schema": "hap.package",
+    "version": 1,
+    "batch": {
+      "schema": "hap.batch",
+      "version": 3,
+      "created_at": 1721332920,
+      "network": "signet",
+      "record_count": 1,
+      "record_ordering": "record_id_lexicographic_v1",
+      "record_ids": [
+        "fe4fd10287faaea0736fe25fb849264527c0387bc8968786a9c19d8fa5aefeb5"
+      ],
+      "merkle_root": "fe4fd10287faaea0736fe25fb849264527c0387bc8968786a9c19d8fa5aefeb5",
+      "algorithms": {
+        "record_id": "sha256",
+        "batch_id": "sha256",
+        "merkle_parent": "sha256(left||right)",
+        "canonical_json": "hap-canonical-json-v1"
+      },
+      "batch_id": "5ca8c08e0aefbc9ecced864f9499b9f7c2b8af326257f6de2f9dd5488ba356fd",
+      "payload_hex": "4849535403015ca8c08e0aefbc9ecced864f9499b9f7c2b8af326257f6de2f9dd5488ba356fd"
+    },
+    "records": [
+      {
+        "schema": "hap.record",
+        "version": 1,
+        "kind": "claim",
+        "created_at": "2026-07-18T20:01:00Z",
+        "event_time": "2026-07-18T20:00:00Z",
+        "author_id": "hap1f0a594d2978da8803f696325ea0aaa5045cf2e94",
+        "author_public_key": "03a107bff3ce10be1d70dd18e74bc09967e4d6309ba50d5f1ddc8664125531b8",
+        "title": "HAP conformance event",
+        "statement": "This deterministic record exists solely as a cross-implementation test vector.",
+        "target_record_id": null,
+        "sources": [
+          {
+            "uri": "https://example.org/conformance",
+            "label": "Conformance source"
+          }
+        ],
+        "evidence": [
+          {
+            "filename": "evidence.txt",
+            "size": 12,
+            "mime_type": "text/plain",
+            "sha256": "a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447",
+            "cid": null
+          }
+        ],
+        "tags": [
+          "conformance",
+          "test-only"
+        ],
+        "signature": "ltlzuxFE0z9Vlpqx5msbMxOXi0PWkB3IV6UxCE2OHFPFKe24IWT+K3saRvn0AxiMGIP3c8IZ/ukhPoluRqDFBw==",
+        "record_id": "fe4fd10287faaea0736fe25fb849264527c0387bc8968786a9c19d8fa5aefeb5"
+      }
+    ],
+    "package_id": "d07f51954ea7ff2af953bd49d01b51084035d05a0f59e807b407a9eda70dae7f"
+  }
+}

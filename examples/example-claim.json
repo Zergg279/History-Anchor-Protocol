@@ -1,0 +1,26 @@
+{
+  "note": "Generate a real signed record with the CLI or web app. This file only illustrates the intended content.",
+  "kind": "claim",
+  "title": "Historical event title",
+  "event_time": "2026-07-18T20:00:00+01:00",
+  "statement": "A precise account of what is claimed to have happened.",
+  "sources": [
+    {
+      "uri": "https://example.org/primary-source",
+      "label": "Primary source"
+    }
+  ],
+  "evidence": [
+    {
+      "filename": "photo.jpg",
+      "sha256": "<sha256>",
+      "size": 12345,
+      "mime_type": "image/jpeg",
+      "cid": null
+    }
+  ],
+  "tags": [
+    "example",
+    "hap:person-impact:uncertain"
+  ]
+}

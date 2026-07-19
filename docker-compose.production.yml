@@ -1,0 +1,49 @@
+name: history-anchor-protocol
+services:
+  hap:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8339:8339"
+    env_file:
+      - .env
+    environment:
+      HAP_DATA_DIR: /data
+      HAP_ROLE: coordinator
+      HAP_DEPLOYMENT_PROFILE: production
+      HAP_ADMIN_TOKEN_FILE: /run/secrets/hap_admin
+      HAP_REQUIRE_SUBMISSION_TOKEN: "1"
+      HAP_SUBMISSION_TOKENS_FILE: /run/secrets/submission_tokens
+      HAP_BITCOIN_RPC_PASSWORD_FILE: /run/secrets/bitcoin_rpc_password
+      HAP_BITCOIN_REQUIRED_FOR_READINESS: "1"
+      HAP_BITCOIN_SCAN_INTERVAL_SECONDS: "60"
+      HAP_RESOLVE_INTERVAL_SECONDS: "60"
+      HAP_SYNC_INTERVAL_SECONDS: "60"
+      HAP_SERVE_EVIDENCE: "1"
+      HAP_RESPONSIBLE_PUBLICATION_PROFILE: "1"
+      HAP_RESPONSIBLE_COOLING_BLOCKS: "6"
+      HAP_RESPONSIBLE_NOTICE_PROTECTION_BLOCKS: "6"
+    secrets:
+      - hap_admin
+      - submission_tokens
+      - bitcoin_rpc_password
+    volumes:
+      - hap-data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+secrets:
+  hap_admin:
+    file: ./deploy/secrets/admin_token
+  submission_tokens:
+    file: ./deploy/secrets/submission_tokens
+  bitcoin_rpc_password:
+    file: ./deploy/secrets/bitcoin_rpc_password
+volumes:
+  hap-data:
