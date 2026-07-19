@@ -182,7 +182,7 @@ The v1.0.0 source release is attributed to **Horus**. Its fixed, project-only Bi
 
 The address remains outside protocol validity: changing it produces a different fork and authenticated source artifact, not a different HAP consensus state. Never place a seed phrase, private key, wallet descriptor, extended public key, or legal-identity document in this repository.
 
-The included Git tag is annotated but not cryptographically signed. Horus may later publish a dedicated release-signing public key and detached signatures; such a key authenticates releases but can never become protocol authority.
+The GitHub `v1.0.0` release tag was created through GitHub's website release flow and is not cryptographically signed. Horus may later publish a dedicated release-signing public key and detached signatures; such a key would authenticate future releases but could never become protocol authority.
 
 ## Core documents
 

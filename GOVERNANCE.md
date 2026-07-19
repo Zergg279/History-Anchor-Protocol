@@ -22,7 +22,7 @@ Unknown critical versions are rejected. Implementations may support multiple ver
 
 Voluntary project funding, grants, sponsorships, and operator service fees do not create protocol authority. Funders receive no validity privilege, truth status, veto, mandatory fee, or ownership of HAP.
 
-The official v1.0.0 source release fixes a genesis Bitcoin contribution address into its signed release metadata. This is an authenticity and attribution property of that release, not a consensus rule or ownership mechanism. Future maintainers may publish a signed replacement destination, and forks may use different funding, but no change can silently rewrite the authenticated v1.0.0 address. Compromise or disappearance of any funding destination must not interrupt publication, verification, preservation, or independent development. Material project funds should move toward transparent accounting and multisignature custody as independent maintainers emerge.
+The official v1.0.0 source release fixes a genesis Bitcoin contribution address into its versioned release metadata. This is an attribution property of that release, not a consensus rule or ownership mechanism. Future maintainers may publish a separately signed replacement destination, and forks may use different funding, but any change necessarily produces a different source revision, manifest identifier, and release artifact. Compromise or disappearance of any funding destination must not interrupt publication, verification, preservation, or independent development. Material project funds should move toward transparent accounting and multisignature custody as independent maintainers emerge.
 
 ## Path away from founder dependence
 

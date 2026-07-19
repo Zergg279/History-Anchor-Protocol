@@ -18,8 +18,8 @@ Release posture: first public reference implementation, finalised under the pseu
 - Bandit scan at medium/high severity: **passed with no findings**.
 - Python byte-compilation and shell syntax checks: **passed**.
 - Wheel reproducibility: **two independent fixed-epoch builds were byte-identical**.
-- Release reproducibility: **two independent packaging runs produced byte-identical ZIP, wheel, and Git bundle assets**.
-- Portable Git bundle: **plain clone selects `main`; cloned `HEAD` and annotated `v1.0.0` resolve to the release commit**.
+- Pre-publication artifact reproducibility: **two independent packaging runs produced byte-identical ZIP, wheel, and Git bundle assets**.
+- A portable Git bundle was tested before publication. The public repository was subsequently created through GitHub website uploads, so its commits and `v1.0.0` tag are GitHub-created and do not preserve that local bundle's commit identity or annotated tag.
 - Exact installed wheel: **CLI identity, funding metadata, signed-record submission, direct batching, and portable package construction passed outside the source tree**.
 
 ## Coverage highlights

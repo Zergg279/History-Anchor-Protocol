@@ -10,7 +10,7 @@ The first official source release of HAP: an ownerless, pseudonymous, Bitcoin-fi
 - No required website, server, archive, coordinator, identity issuer, repository, or founder key.
 - Packages, records, evidence hashes, and Bitcoin anchors are independently verifiable.
 - One complete lawful archive plus Bitcoin history can re-seed the surviving network.
-- The official release fixes a voluntary Bitcoin contribution address into signed release metadata and `hap funding`; it remains outside consensus and grants no founder fee, token, royalty, truth status, governance right, or protocol priority.
+- The official release fixes a voluntary Bitcoin contribution address into versioned release metadata and `hap funding`; it remains outside consensus and grants no founder fee, token, royalty, truth status, governance right, or protocol priority.
 
 ## Trust and safety boundary
 

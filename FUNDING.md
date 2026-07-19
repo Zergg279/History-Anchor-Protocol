@@ -12,11 +12,11 @@ Funding manifest identifier:
 
 `09604d121490a3c598a0da039b469f76282ecb1e7690234d8e4315f8569f7c41`
 
-The address is included in the source code, `FUNDING_MANIFEST.json`, this document, and the founder-attributed genesis release statement. A different address therefore produces a different source tree, Git commit, release tag, manifest identifier, ZIP checksum, and founder signature.
+The address is included in the source code, `FUNDING_MANIFEST.json`, this document, and the founder-attributed genesis release statement. A different address therefore produces a different source tree, Git commit, release tag, manifest identifier, and release artifact.
 
-This makes unauthorised replacement **detectable** when users authenticate the official release. It does not make the address a Bitcoin or HAP consensus rule. A fork can publish a different address, but cannot truthfully present it as the signed official v1.0.0 release.
+This makes unauthorised replacement **detectable** when users compare the source revision, release tag, funding manifest, and published artifact checksums. It does not make the address a Bitcoin or HAP consensus rule. A fork can publish a different address, but cannot truthfully present it as the original v1.0.0 source release.
 
-Use only the address obtained from a release whose Git tag, checksums, and founder signature have been independently verified. Never trust an address copied from an advertisement, social post, search result, or unverified mirror.
+The GitHub v1.0.0 release is not cryptographically signed by a dedicated Horus release key. Creating and publishing such a key remains an explicit future hardening step. Until then, users should obtain the address from the official repository release, compare the manifest identifier across independent mirrors where available, and verify published artifact checksums. Never trust an address copied only from an advertisement, social post, search result, or unverified mirror.
 
 A static address creates an intentional privacy tradeoff: contributions and balance activity are publicly linkable. It must be a fresh project-only address that has never been used for personal savings, node operations, or another identity.
 
